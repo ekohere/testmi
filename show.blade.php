@@ -28,7 +28,7 @@
 	 			<hr>
 	 			<div class="row">
 	 				<div class="col-md-6">
-	 					<a href="{{ route('post.edit', $post->id) }}" class="btn btn-primary btn-block">Edit</a>
+	 					<a href="{{ route('post.edit', $post->id) }}" class="btn btn-primary btn-block">Edit data</a>
 	 				
 	 				</div>
 	 				<div class="col-md-6">
