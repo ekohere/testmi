@@ -1,0 +1,80 @@
+git code
+
+cek version git,
+- git --version
+
+initiate git/cara memulai project git
+- git init
+
+cek status index project
+- git status
+
+cara add track file project
+* per-satuan
+- git add index.html/php
+* tambahkan semua
+- git add .
+
+cek kembali status gitnya
+* git status
+
+commit save untuk menyimpan project sementara/check point
+- git commit -m "<pesan yang mau di isi>"
+
+NB : kalo disuru isi usernam dan pass silahkan isikan sesuai dengan acc github
+
+cara cek status commit
+- git log
+- git log --oneline
+
+mengecek perubahan baru yang belum di track
+- git diff
+
+mengembalikkan checkpoint pada koding sebelumnya keseluruhan
+- git checkout <namaproject.html>
+cek kembali git diff
+
+saat ngesave banyak CP project dan kembali ke cp yang dimau
+* save project by add
+* git log --oneline
+* pilih titik CP project yang dituju
+- git checkout <kode summit> -- <namaproject.html/php>
+*cek ke text editor maka kembali
+
+cara menghapus commit tanpa mengubah working directory menggunakan 
+- git reset --mixed <kode.summit>
+
+menghapus commit dan working directory
+- get reset --hard <kode.summit>
+
+mengecek branch pada git
+- git branch
+
+cara membuat git branch
+- git branch <nama.branch>
+* lalu cek branch
+
+cara pindah branch
+- git checkout <nama.branch>
+
+cara buat branch baru dan langsung pindah kedalamnya
+- git checkout -b <namafolderbranchbaru>
+
+cara hapus folder branch
+- git branch -D <namafolderygmaudihapus>
+
+cara mengganti nama folder branch
+- git branch -m <folderbranchlama> <folderbranchbaru>
+
+cara menggabungkan index/merge
+- git merge <namafolderygmaudigabung>
+
+
+
+
+
+
+
+
+
+
